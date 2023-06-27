@@ -95,12 +95,12 @@ scene.add(balloon) ;
 
 //SkyBox
 let materialArray = [];
-let texture_ft = new THREE.TextureLoader().load( 'meadow_ft.jpg');
-let texture_bk = new THREE.TextureLoader().load( 'meadow_bk.jpg');
-let texture_up = new THREE.TextureLoader().load( 'meadow_up.jpg');
-let texture_dn = new THREE.TextureLoader().load( 'meadow_dn.jpg');
-let texture_rt = new THREE.TextureLoader().load( 'meadow_rt.jpg');
-let texture_lf = new THREE.TextureLoader().load( 'meadow_lf.jpg');
+let texture_ft = new THREE.TextureLoader().load( 'images/meadow_ft.jpg');
+let texture_bk = new THREE.TextureLoader().load( 'images/meadow_bk.jpg');
+let texture_up = new THREE.TextureLoader().load( 'images/meadow_up.jpg');
+let texture_dn = new THREE.TextureLoader().load( 'images/meadow_dn.jpg');
+let texture_rt = new THREE.TextureLoader().load( 'images/meadow_rt.jpg');
+let texture_lf = new THREE.TextureLoader().load( 'images/meadow_lf.jpg');
   
 materialArray.push(new THREE.MeshBasicMaterial( { map: texture_ft }));
 materialArray.push(new THREE.MeshBasicMaterial( { map: texture_bk }));
